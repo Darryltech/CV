@@ -1,0 +1,67 @@
+#first-Container{
+   
+    background-color:white;
+    
+   
+    
+}
+body{
+    background-color: black;
+   
+}
+#first-Container{
+    background-color: grey;
+}
+#second-Container{
+ 
+    border-color: black;
+  padding-left: 15%;
+  padding-right: 15%;
+ background-color: beige;
+
+}
+#myimg{
+    margin-top: 0em;
+    margin-bottom: 2em;
+    border-radius: 90%;
+    height: 8cm;
+    width: 17em;
+   
+   
+}
+#info-div{
+    margin-top: 2em;
+    border-color: black;
+    margin-left:30px;
+}
+#pic-di{
+    
+}
+hr{
+    size: 3%;
+    border-color: blue;
+    
+}
+#third-Container{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+#aM{
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+span{
+    font-weight: bolder;
+    
+}
+table,th,td{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    
+}
+div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
