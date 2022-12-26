@@ -1,3 +1,4 @@
+
 #first-Container{
    
     background-color:white;
@@ -21,18 +22,22 @@ body{
 
 }
 #myimg{
-    margin-top: 0em;
+    margin-top: 1em;
     margin-bottom: 2em;
     border-radius: 90%;
-    height: 8cm;
-    width: 17em;
+    height: auto;
+    width: 100%;
+    max-width: 350px;
    
    
 }
 #info-div{
-    margin-top: 2em;
+    margin-top: 1em;
     border-color: black;
     margin-left:30px;
+    height: auto;
+    font-size: 20px;
+    text-size-adjust: auto;
 }
 #pic-di{
     
@@ -64,4 +69,31 @@ table,th,td{
 }
 div{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media(max-width:600px){
+
+    #info-div{
+        margin-top: 1em;
+        border-color: black;
+        margin-left:30px;
+        font-size: 15px;
+        text-size-adjust: auto;
+        display:block;
+    }
+    #myimg{
+        margin-top: 8em;
+       
+        border-radius: 90%;
+        height: auto;
+        width: 100%;
+        max-width: 500px;
+       
+       
+    }
+    #second-Container{
+    position:relative;
+     background-color: beige;
+     border: 3px solid black;
+    
+    }
 }
